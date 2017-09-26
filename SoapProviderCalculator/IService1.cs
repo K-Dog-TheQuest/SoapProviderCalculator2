@@ -12,7 +12,7 @@ namespace SoapProviderCalculator
     [ServiceContract]
     public interface IService1
     {
-        [OperationContract]
+        [OperationContract] 
         double Add(double a, double b);
 
         [OperationContract]
